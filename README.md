@@ -13,3 +13,29 @@ make:user permet de créer une classe d'utilisateurs tandis que make:entity perm
 on utilise "doctrine:fixtures:load".
 
 # 4. Résumez de manière simple le fonctionnement du système de versions "Semver" 
+
+SemVer (voulant dire Semantic Versioning) est une gestion sémantique des versions. En d'autres termes, une façon de numéroter les versions de manière logique, cohérente, parlante, ayant du sens. 
+
+# 5. Qu'est-ce qu'un Repository ? A quoi sert-il ? 
+
+Utiliser le patron de conception repository dans un projet Symfony/Doctrine est une bonne pratique logicielle qui permet de mettre en place une meilleure structure et de faciliter l'exécution de tests.
+
+# 6. Quelle commande utiliser pour voir la liste des routes ?
+
+c'est la commande debug:router.
+
+# 7. Dans un template Twig, quelle variable globale permet d'accéder à la requête courante, l'utilisateur courant, etc...? 
+
+c'est la variable {{ app. }} | exemple : {{ app.request }} | {{ app.user  }}
+
+# 8. Pour mettre à jour la structure de la base de données, quelles sont les 2 possibilités que nous avons abordées en cours ?
+
+les deux commandes sont "doctrine:migrations:migrate" et "doctrine:schema:update --force"
+
+# 9. Quelle commande permet de créer une classe de contrôleur ?
+
+c'est la commande "make:controller"
+
+# 10. Décrivez succintement l'outil Flex de Symfony
+
+Flex est un outil Symfony qui permet d'ajouter des nouvelles briques en déployant le moins d'effort possible. En effet, l'ajout d'une brique dans une application nécessite souvent d'ajouter un minimum de configuration, d'enregistrer des nouvelles routes, etc.
